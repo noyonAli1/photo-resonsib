@@ -139,20 +139,25 @@ nav >ul> li >a i{
     font-size: 20px;
   }
   .main-png{
-    flex-direction: column-reverse;
+    flex-direction:column-reverse;
   }
   .mainpng-container{
     margin-top: 0px;
     text-align: center;
 }
   .mainpng-container h1{
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(to right,rgb(12, 198, 215),rgb(4, 52, 141));
+  color: transparent;
+  background-clip: text;
 }
 .main-png{
     gap: 40px;
 }
 .back-img{
     background-position: center;
+    background-size: cover;
 }
 header{
     width: 90%;
