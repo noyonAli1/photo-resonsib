@@ -71,6 +71,15 @@ nav >ul> li >a i{
     margin-top: 16px;
     font-size: 1rem;
     font-weight: 700;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn:hover{
+    background: linear-gradient(to left,rgb(0, 145, 255),rgb(255, 0, 208),rgb(0, 255, 115));
+    transition: 1s;
+}
+.icon-2{
+    display: none;
 }
 
 .icon-font{
@@ -182,5 +191,40 @@ header{
     background: linear-gradient(to right,rgb(0, 255, 195),rgb(11, 110, 146),rgb(68, 0, 255));
     color: transparent;
     background-clip: text;
+}
+}
+
+section{
+    width: 80%;
+    background-color: rgba(250, 235, 215, 0.069);
+    margin: auto;
+    margin-top: 100px;
+}
+.box-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 60px;
+    border-top: 1px solid rgb(234, 221, 221);
+    border-bottom: 1px solid rgb(235, 209, 209);
+}
+@media screen and (max-width:430px){
+    .box-img{
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(3,1fr);
+      margin: auto;
+      justify-content: center;
+         border-top: 1px solid rgba(234, 221, 221, 0);
+    border-bottom: 1px solid rgba(235, 209, 209, 0);
+}
+section{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.box-img img{
+    width: 70px;
+    height: 25px;
 }
 }
