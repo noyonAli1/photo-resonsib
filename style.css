@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow:border-box;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: auto;
+}
+:root{
+    --pramiry-color: rgb(4, 4, 4);
+}
+
+header{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin:  0 auto;
+
+}
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav-logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+nav >ul{
+    display: flex;
+    gap: 30px;
+}
+nav >ul> li{
+    list-style: none;
+}
+nav >ul> li >a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color:var(--pramiry-color) ;
+}
+nav >ul> li >a i{
+    font-size: 20px;
+}
+
+.main-png{
+    display: flex;
+    justify-content: space-between;
+    padding-top:60px ;
+
+}
+.mainpng-container{
+    margin-top: 106px;
+}
+.mainpng-container h1{
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+.png-ii{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btn{
+    background-color: #E02C6D;
+    color: aliceblue;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 35px;
+    margin-top: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.icon-font{
+    margin-left: 5px;
+}
+.back-img{
+    background-image: url(./images/Circle\ design.svg);
+    /* height: 500px; */
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dis-icon-icon{
+    display: none;
+}
+.dis-icon{
+    display: none;
+}
+@media screen and (max-width:1024px){
+    nav{
+        display: none;
+    }
+.dis-icon{
+    display: block;
+    font-size: 25px;
+}
+.mainpng-container h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.png-ii{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.back-img img{
+     width: 100%;
+}
+
+}
+@media screen and (max-width:768px){
+   nav{
+    display: none;
+   } 
+   .dis-icon{
+    display: block;
+    font-size: 20px;
+   }
+   .back-img img{
+     width: 100%;
+}
+.main-png{
+    align-items: center;
+}
+}
+@media screen and (max-width:430px){
+   nav{
+    display: none;
+   } 
+  .dis-icon-icon{
+    display: block;
+    font-size: 20px;
+  }
+  .dis-icon{
+    display: none;
+  }
+  .nav-logo{
+    font-size: 20px;
+  }
+  .main-png{
+    flex-direction: column-reverse;
+  }
+  .mainpng-container{
+    margin-top: 0px;
+    text-align: center;
+}
+  .mainpng-container h1{
+  font-size: 3rem;
+}
+.main-png{
+    gap: 40px;
+}
+.back-img{
+    background-position: center;
+}
+header{
+    width: 90%;
+}
+
+}
