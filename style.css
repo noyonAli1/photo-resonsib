@@ -88,6 +88,9 @@ nav >ul> li >a i{
 .dis-icon{
     display: none;
 }
+.icon-2{
+    display: none;
+}
 @media screen and (max-width:1024px){
     nav{
         display: none;
@@ -131,6 +134,8 @@ nav >ul> li >a i{
   .dis-icon-icon{
     display: block;
     font-size: 20px;
+    color: #E02C6D;
+    font-weight: 700;
   }
   .dis-icon{
     display: none;
@@ -162,5 +167,20 @@ nav >ul> li >a i{
 header{
     width: 90%;
 }
-
+.png-ii{
+    text-align: center;
+}
+/* .width-img{
+    width: 80%;
+} */
+.icon-2{
+    display: block;
+    font-size: 20px;
+    color: #E02C6D;
+}
+.nav-logo{
+    background: linear-gradient(to right,rgb(0, 255, 195),rgb(11, 110, 146),rgb(68, 0, 255));
+    color: transparent;
+    background-clip: text;
+}
 }
